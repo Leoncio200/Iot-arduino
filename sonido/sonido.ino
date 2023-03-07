@@ -1,6 +1,6 @@
 #include "sonido.h"
 
-#define LED 13
+#define LED 10
 
 Sonido mic(0);
 

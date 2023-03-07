@@ -1,6 +1,6 @@
 #include "Humo.h"
 
-const int pin= A0;
+const int pin= A1;
 
 Humo humo(pin);
 

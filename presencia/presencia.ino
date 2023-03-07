@@ -1,6 +1,6 @@
 #include "Presencia.h"
 const int ledPin= 13;
-const int pirPin= 2;
+const int pirPin= 5;
 
 Presencia presencia(pirPin, ledPin);
 
