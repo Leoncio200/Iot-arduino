@@ -31,12 +31,13 @@ void loop() {
   sonido = sensorSonido.read();
   temperatura = sensorTemperatura.readTemperature();
     
-  Serial.println("Corriente:  A");
-  Serial.println();
-  Serial.println();
-  Serial.println();
-  Serial.println();
-  Serial.println();
-  Serial.println();
+  Serial.println("Corriente: "+ Corriente + " A");
+  Serial.println("flama: "+ flama );
+  Serial.println("humo: "+ humo );
+  Serial.println("luz: "+ luz );
+  Serial.println("magnetico: "+ magnetico );
+  Serial.println("presencia: "+ presencia );
+  Serial.println("sonido: "+ sonido );
+  Serial.println("temperatura: "+ temperatura + " C" );
   delay(1000);
 }
